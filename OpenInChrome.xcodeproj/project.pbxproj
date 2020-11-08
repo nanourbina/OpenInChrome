@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E2192411E27EC9F0068247A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2192401E27EC9F0068247A /* AppDelegate.m */; };
+		3E2192441E27EC9F0068247A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2192431E27EC9F0068247A /* main.m */; };
+		3E2192471E27EC9F0068247A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2192461E27EC9F0068247A /* ViewController.m */; };
+		3E2192491E27EC9F0068247A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2192481E27EC9F0068247A /* Assets.xcassets */; };
+		3E21924C1E27EC9F0068247A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E21924A1E27EC9F0068247A /* Main.storyboard */; };
+		3E21925B1E27ECC80068247A /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3E21925A1E27ECC80068247A /* icon.icns */; };
+		3E21925F1E27ECC80068247A /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E21925E1E27ECC80068247A /* ShareViewController.m */; };
+		3E2192621E27ECC80068247A /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E2192601E27ECC80068247A /* ShareViewController.xib */; };
+		3E2192661E27ECC80068247A /* Open in Chrome-Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3E2192571E27ECC80068247A /* Open in Chrome-Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3E21926F1E27FCA40068247A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E21926E1E27FCA40068247A /* Media.xcassets */; };
+		3E7013641E2807E6003EB56E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E21926E1E27FCA40068247A /* Media.xcassets */; };
+		3E7013651E2807F7003EB56E /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3E21925A1E27ECC80068247A /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E2192641E27ECC80068247A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E2192341E27EC9F0068247A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2192561E27ECC80068247A;
+			remoteInfo = "Open in Chrome";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E21926A1E27ECC80068247A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3E2192661E27ECC80068247A /* Open in Chrome-Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E21923C1E27EC9F0068247A /* Open In Chrome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open In Chrome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E21923F1E27EC9F0068247A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E2192401E27EC9F0068247A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E2192431E27EC9F0068247A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E2192451E27EC9F0068247A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E2192461E27EC9F0068247A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E2192481E27EC9F0068247A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E21924B1E27EC9F0068247A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E21924D1E27EC9F0068247A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E2192571E27ECC80068247A /* Open in Chrome-Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Open in Chrome-Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E21925A1E27ECC80068247A /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		3E21925C1E27ECC80068247A /* Open_in_Chrome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Open_in_Chrome.entitlements; sourceTree = "<group>"; };
+		3E21925D1E27ECC80068247A /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		3E21925E1E27ECC80068247A /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		3E2192611E27ECC80068247A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ShareViewController.xib; sourceTree = "<group>"; };
+		3E2192631E27ECC80068247A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E21926E1E27FCA40068247A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2192391E27EC9F0068247A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2192541E27ECC80068247A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E2192331E27EC9F0068247A = {
+			isa = PBXGroup;
+			children = (
+				3E21923E1E27EC9F0068247A /* Open In Chrome App */,
+				3E2192581E27ECC80068247A /* Open in Chrome Extension */,
+				3E21923D1E27EC9F0068247A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E21923D1E27EC9F0068247A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E21923C1E27EC9F0068247A /* Open In Chrome.app */,
+				3E2192571E27ECC80068247A /* Open in Chrome-Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E21923E1E27EC9F0068247A /* Open In Chrome App */ = {
+			isa = PBXGroup;
+			children = (
+				3E21923F1E27EC9F0068247A /* AppDelegate.h */,
+				3E2192401E27EC9F0068247A /* AppDelegate.m */,
+				3E2192451E27EC9F0068247A /* ViewController.h */,
+				3E2192461E27EC9F0068247A /* ViewController.m */,
+				3E2192481E27EC9F0068247A /* Assets.xcassets */,
+				3E21924A1E27EC9F0068247A /* Main.storyboard */,
+				3E21924D1E27EC9F0068247A /* Info.plist */,
+				3E2192421E27EC9F0068247A /* Supporting Files */,
+			);
+			name = "Open In Chrome App";
+			path = OpenInChromeApp;
+			sourceTree = "<group>";
+		};
+		3E2192421E27EC9F0068247A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E2192431E27EC9F0068247A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E2192581E27ECC80068247A /* Open in Chrome Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3E21925D1E27ECC80068247A /* ShareViewController.h */,
+				3E21925E1E27ECC80068247A /* ShareViewController.m */,
+				3E2192601E27ECC80068247A /* ShareViewController.xib */,
+				3E2192631E27ECC80068247A /* Info.plist */,
+				3E2192591E27ECC80068247A /* Supporting Files */,
+			);
+			name = "Open in Chrome Extension";
+			path = OpenInChromeExtension;
+			sourceTree = "<group>";
+		};
+		3E2192591E27ECC80068247A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E21925A1E27ECC80068247A /* icon.icns */,
+				3E21925C1E27ECC80068247A /* Open_in_Chrome.entitlements */,
+				3E21926E1E27FCA40068247A /* Media.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E21923B1E27EC9F0068247A /* Open In Chrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2192501E27EC9F0068247A /* Build configuration list for PBXNativeTarget "Open In Chrome" */;
+			buildPhases = (
+				3E2192381E27EC9F0068247A /* Sources */,
+				3E2192391E27EC9F0068247A /* Frameworks */,
+				3E21923A1E27EC9F0068247A /* Resources */,
+				3E21926A1E27ECC80068247A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E2192651E27ECC80068247A /* PBXTargetDependency */,
+			);
+			name = "Open In Chrome";
+			productName = OpenInChrome;
+			productReference = 3E21923C1E27EC9F0068247A /* Open In Chrome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E2192561E27ECC80068247A /* Open in Chrome-Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E2192671E27ECC80068247A /* Build configuration list for PBXNativeTarget "Open in Chrome-Extension" */;
+			buildPhases = (
+				3E2192531E27ECC80068247A /* Sources */,
+				3E2192541E27ECC80068247A /* Frameworks */,
+				3E2192551E27ECC80068247A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open in Chrome-Extension";
+			productName = "Open in Chrome";
+			productReference = 3E2192571E27ECC80068247A /* Open in Chrome-Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E2192341E27EC9F0068247A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = "Razz Software";
+				TargetAttributes = {
+					3E21923B1E27EC9F0068247A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4UVJ7KU2F2;
+						ProvisioningStyle = Automatic;
+					};
+					3E2192561E27ECC80068247A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4UVJ7KU2F2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3E2192371E27EC9F0068247A /* Build configuration list for PBXProject "OpenInChrome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E2192331E27EC9F0068247A;
+			productRefGroup = 3E21923D1E27EC9F0068247A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E21923B1E27EC9F0068247A /* Open In Chrome */,
+				3E2192561E27ECC80068247A /* Open in Chrome-Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E21923A1E27EC9F0068247A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2192491E27EC9F0068247A /* Assets.xcassets in Resources */,
+				3E7013651E2807F7003EB56E /* icon.icns in Resources */,
+				3E7013641E2807E6003EB56E /* Media.xcassets in Resources */,
+				3E21924C1E27EC9F0068247A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2192551E27ECC80068247A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2192621E27ECC80068247A /* ShareViewController.xib in Resources */,
+				3E21926F1E27FCA40068247A /* Media.xcassets in Resources */,
+				3E21925B1E27ECC80068247A /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E2192381E27EC9F0068247A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2192471E27EC9F0068247A /* ViewController.m in Sources */,
+				3E2192441E27EC9F0068247A /* main.m in Sources */,
+				3E2192411E27EC9F0068247A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E2192531E27ECC80068247A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E21925F1E27ECC80068247A /* ShareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E2192651E27ECC80068247A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E2192561E27ECC80068247A /* Open in Chrome-Extension */;
+			targetProxy = 3E2192641E27ECC80068247A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E21924A1E27EC9F0068247A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E21924B1E27EC9F0068247A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E2192601E27ECC80068247A /* ShareViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E2192611E27ECC80068247A /* Base */,
+			);
+			name = ShareViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E21924E1E27EC9F0068247A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E21924F1E27EC9F0068247A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E2192511E27EC9F0068247A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4UVJ7KU2F2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = OpenInChromeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razzsoftware.OpenInChrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E2192521E27EC9F0068247A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4UVJ7KU2F2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = OpenInChromeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.razzsoftware.OpenInChrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3E2192681E27ECC80068247A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OpenInChromeExtension/Open_in_Chrome.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4UVJ7KU2F2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = OpenInChromeExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razzsoftware.OpenInChrome.Open-in-Chrome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3E2192691E27ECC80068247A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OpenInChromeExtension/Open_in_Chrome.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4UVJ7KU2F2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = OpenInChromeExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razzsoftware.OpenInChrome.Open-in-Chrome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E2192371E27EC9F0068247A /* Build configuration list for PBXProject "OpenInChrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E21924E1E27EC9F0068247A /* Debug */,
+				3E21924F1E27EC9F0068247A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2192501E27EC9F0068247A /* Build configuration list for PBXNativeTarget "Open In Chrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2192511E27EC9F0068247A /* Debug */,
+				3E2192521E27EC9F0068247A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E2192671E27ECC80068247A /* Build configuration list for PBXNativeTarget "Open in Chrome-Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E2192681E27ECC80068247A /* Debug */,
+				3E2192691E27ECC80068247A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E2192341E27EC9F0068247A /* Project object */;
+}
